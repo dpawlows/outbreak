@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CDC Alert! </title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script src="js/site.js"></script>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+  <div class="header">
+    <h1 class='centered'>CDC Biohazard Alert</h1>
+    <img class='displayed'  src="images/biohazard.png" alt="biohazard">
+  </div>
+  <div class="content">
+<!-- <div class="grid-container"> -->
+   <!-- <div class="grid-container"> -->
+     <!-- <div class="item1"> -->
+
+
+    <div class="btn-group" style="width:100%">
+      <button style="width:33%"><a href="cre1.html" > Information about CrE1 <span id="d1"></span></a></button>
+      <button style="width:33%"><a href="m-rsa5a.html" > Information about M-rSA5a<span id="d2"></span></a></button>
+      <button style="width:33%"><a href="#" > Who to contact </a></button>
+    </div>
+
+    <!-- <div class="item3"> -->
+      <h4> 2018 Ann Arbor, Michigan USA </h4>
+      <p>On December 1, 2018 the WHO declared the downtown Ann Arbor, Michigan
+      area to be at extreme risk for spread of two infectous diseases:
+      Carbapenem-resistant Enterobacteriaceae (CrE1)
+      and Methicillin-resistant Staphylococcus Aurus (M-rSA5a).  The
+      <a style="text-decoration:underline" href="location.html">Ann
+      Arbor office</a> of the fCDC is currently monitoring the area and has
+      multiple teams in the area investigating.
+      </p>
+
+      <div class="mapcontainer"> <!--Note: hit preview when changing the map so that it refreshes on device-->
+        <a target="_blank" href="https://drive.google.com/open?id=1ff8RAdfI6Dp6pe_jb2PXudOWh7iVDOi2&usp=sharing"><img class="displayed" src="images/aablacksmall.png" alt="biohazard">
+          </a>
+
+        <h4>Map of the CrE1 and
+      C-rSA5a affected zones
+        in Ann Arbor.  Click for more detail.</h4>
+      </div>
+
+<!-- </div> -->
+</div>
+
+
+
+
+</body>
+</html>
