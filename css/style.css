@@ -1,18 +1,29 @@
 body{
   background-color: #B2B2AA;
   display: block;
-  margin: 0;
-
-}
-@media only screen (max-width: 360px){
-  iframe {
-  text-align:center;
   margin: 0 auto;
-  width: 310px;
-
-  }
 
 }
+/* .mapcontainer{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+text-align: center;
+padding: 40px 10px 10px 10px;
+} */
+@media only screen and (min-device-width: 500px) {
+  .mapcontainer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  text-align: center;
+  background-color: #B28221;
+  padding: 40px 10px 10px 10px;
+}
+}
+
 
 mapbody{
   background-color: #FFFFFF;
@@ -59,19 +70,11 @@ img.displayed {
     padding: 0;
 }
 
-.mapcontainer{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  text-align: center;
-  background-color: #B28221;
-  padding: 40px 10px 10px 10px;
-}
+
 .header{
   margin: 0 auto;
   padding:10px 0 30px 0;
-  width:100%;
+  width: 100%;
   background-color: #FFFFFF;
   border-bottom: 5px solid #3B3B13;
 }
