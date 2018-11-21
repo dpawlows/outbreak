@@ -2,16 +2,11 @@ body{
   background-color: #B2B2AA;
   display: block;
   margin: 0 auto;
-
 }
-/* .mapcontainer{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-text-align: center;
-padding: 40px 10px 10px 10px;
-} */
+
+.data {
+font-family:"Courier New", Courier, monospace;
+}
 @media only screen and (min-device-width: 500px) {
   .mapcontainer{
   display: block;
@@ -23,6 +18,7 @@ padding: 40px 10px 10px 10px;
   padding: 40px 10px 10px 10px;
 }
 }
+
 
 
 mapbody{
