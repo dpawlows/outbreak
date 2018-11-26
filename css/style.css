@@ -20,6 +20,15 @@ font-family:"Courier New", Courier, monospace;
 }
 
 
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
 
 mapbody{
   background-color: #FFFFFF;
@@ -40,6 +49,8 @@ mapbody{
   }
   .item1{
     font-size: 24px;
+    font-weight:bold;
+    color:grey;
   }
   .item2 {
     font-size: 16px;
