@@ -168,3 +168,31 @@ a{
   .infected {width: 0%; background-color: #FF5200;}
 
   .dead {width: 0%; background-color: #CC0000;}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+@media only screen and (min-device-width: 500px) {
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 900px;
+  }
+}
+
+  td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+  }
+
+  tr:nth-child(even) {
+      background-color: #dddddd;
+  }
+
+.puzzle{
+  padding:0 0 0 10px;
+  font-size:20px;
+}
