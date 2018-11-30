@@ -8,9 +8,7 @@
   margin: 0 auto;
 }
 
-h4{
-  margin: 0px 0 0 0;
-}
+
 
 .data {
 font-family:"Courier New", Courier, monospace;
@@ -97,7 +95,9 @@ img.displayed {
   border-bottom: 5px solid #3B3B13;
 }
 
-
+.nomargin{
+  margin: 0;
+}
 .btn-group button {
     background-color: #FF5200; /* Green background */
     border: 1px solid #3B3B13; /* Green border */
