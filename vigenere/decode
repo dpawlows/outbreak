@@ -1,0 +1,1 @@
+cat 3 | java WordCipher -d BLINDFOLD
