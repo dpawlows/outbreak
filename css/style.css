@@ -1,17 +1,29 @@
-body{
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+ body{
   background-color: #B2B2AA;
   display: block;
   margin: 0 auto;
 }
 
+h4{
+  margin: 0px 0 0 0;
+}
+
 .data {
 font-family:"Courier New", Courier, monospace;
+}
+.mapcontainer{
+  margin-bottom:20px;
 }
 @media only screen and (min-device-width: 500px) {
   .mapcontainer{
   display: block;
   margin-left: auto;
   margin-right: auto;
+
   width: 500px;
   text-align: center;
   background-color: #B28221;
@@ -133,3 +145,26 @@ a{
       width: 200px;
       height: 80px; */
   } */
+
+  * {box-sizing: border-box}
+
+  .container {
+    margin: 0 0 30px 0 ;
+    /* padding:0 0 0 0 ; */
+    width: 100%;
+    background-color: #d9d9d9;
+  }
+
+  .tracker {
+    text-align: right;
+    padding: 0px;
+    color: white;
+    height:25px;
+  }
+
+.tracker span{
+  margin:10px
+}
+  .infected {width: 0%; background-color: #FF5200;}
+
+  .dead {width: 0%; background-color: #CC0000;}
