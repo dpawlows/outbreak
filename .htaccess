@@ -3,9 +3,17 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 
-AuthName "restricted area"
-AuthUserFile /Library/WebServer/Documents/outbreak/.htpasswd
-"AAAA" AuthType Basic
-<Files "AAAA.html">
-  require valid-user
-</Files>
+
+#<FilesMatch "AAAA">
+#AuthName "Member Only"
+#AuthType Basic
+#AuthUserFile /Users/dpawlows/secure/.htpasswd
+#require valid-user
+#</FilesMatch>
+
+#<FilesMatch "BBBB">
+#AuthName "Member Only"
+#AuthType Basic
+#AuthUserFile /Users/dpawlows/secure/.htpasswd
+#require valid-user
+#</FilesMatch>
