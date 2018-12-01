@@ -4,12 +4,12 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 
 
-#<FilesMatch "AAAA">
-#AuthName "Member Only"
-#AuthType Basic
-#AuthUserFile /Users/dpawlows/secure/.htpasswd
-#require valid-user
-#</FilesMatch>
+<FilesMatch "CCCC">
+AuthName "Member Only"
+AuthType Basic
+AuthUserFile /Users/dpawlows/secure/.htpasswd
+require valid-user
+</FilesMatch>
 
 #<FilesMatch "BBBB">
 #AuthName "Member Only"
